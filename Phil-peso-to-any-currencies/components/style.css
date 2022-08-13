@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --background-color: #0042FF;
+}
+
+* {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.converter {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 310px;
+}
+
+.convert {
+    width: 85%;
+    height: 400px;
+    background: #fff;
+    box-shadow: 3px 3px 20px 5px #0036cc;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    top: 140px;
+}
+
+label {
+    color: rgb(115, 115, 115);
+    font-weight: 500;
+}
+
+#peso-amount {
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid var(--background-color);
+    width: 80%;
+    color: var(--background-color);
+    padding-left:5px;
+}
+
+#peso-amount:focus {
+    outline: none;
+}
+
+#reset {
+    width:15%;
+    height:35px;
+    background: none;
+    border: none;   
+    cursor: pointer;
+}
+
+#reset img {
+    height: 20px;
+    width: 20px;
+    /* padding-top: 10px; */
+}
+
+.peso {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+}
+
+.peso > * {
+    padding-top: 10px;
+}
+
+.peso img {
+    height: 40px;
+    width: 40px;
+}
+
+h6 {
+    margin: 10px 0 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.left {
+    width:40%;
+    position: relative;
+    right:70px;
+    z-index: 1;
+    bottom: 9px;
+}
+
+.right {
+    width:40%;
+    position: relative;
+    left:70px;
+    z-index: 1;
+    bottom: 11px;
+}
+
+.curr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.curr button {
+    background-color: #fff;
+    height: 55px;
+    width: 55px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 10px;
+}
+
+.curr button img {
+    padding-top: 5px;
+    width: 35px;
+}
+
+.curr button:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+#result {
+    background-color: rgb(238, 238, 238);
+    margin-top: 10px;
+    width: 95%;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    color: var(--background-color);
+    text-align: center;
+    border-radius:10px;
+}
+
+#result:focus {
+    outline:none;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 20px;
+}

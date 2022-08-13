@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1490/1490836.png" size="16X16">
+    <link rel="stylesheet" href="../../components/style.css">
+    <title>Philippine Peso Converter</title>
+</head>
+<body>
+    <div class="converter">
+        <div class="container">
+            <div class="convert">
+                <label for="top">amount</label>
+                <div class="top">
+                    <input type="text" id = "peso-amount" placeholder="PHP 0.00">
+                    <button type="button" id="reset"><img src="../../components/reset.png"></button>
+                </div>
+                <div class="peso">
+                    <img src="../../components/ph.png" alt="PH Flag">
+                    <h2>PH / Peso</h2>
+                </div>
+                </h3><h6>TO</h6><hr class="left"><hr class="right">
+                <div class="curr">
+                    <button id="currency" value="us"><img src="../../components/us.png"></button>
+                    <button id="currency" value="eu"><img src="../../components/eu.png"></button>
+                    <button id="currency" value="yen"><img src="../../components/jp.png"></button>
+                    <button id="currency" value="won"><img src="../components/kor.png"></button>
+                    <button id="currency" value="bra"><img src="../components/bra.png"></button>
+                    <button id="currency" value="bhat"><img src="../components/thai.png"></button>
+                    <button id="currency" value="rup"><img src="../components/ind.png"></button>
+                    <button id="currency" value="dir"><img src="../components/sau.png"></button>
+                </div>
+                <input type="text" id="result" disabled>
+                <h5 class="creator">Made By Francis Tin-ao</h5>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
